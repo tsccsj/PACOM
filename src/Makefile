@@ -9,13 +9,13 @@ GDALLIB := -L$(GDALDIR)/lib -lgdal
 # Target rules
 All: RandomField SARasterStat
 
-RandomField.o: main.c
+randomField.o: randomField.c
 	$(GCC) -o $@ -c $< 
 io.o: io.c
 	$(GCC) -I. -I$(GDALDIR)/include -o $@ -c $< 
 field.o: field.c
 	$(GCC) $(GCCFLAG) -o $@ -c $< 
-RandomField: RandomField.o io.o field.o
+RandomField: randomField.o io.o field.o
 	$(GCC) $(GCCFLAG) -o ../$@ $+ $(GDALLIB)
 SARasterStat.o: SARasterStat.c
 	$(GCC) -I. -I$(GDALDIR)/include -o $@ -c $< 
