@@ -1,6 +1,9 @@
 # PACOM
 PACOM tool set provides software to generate metric maps and indicator maps for the PACOM framework using ratio maps (i.e. the output of digital population kernel analysis).
 
+#Software instruction
+http://digitalpopulations.pbworks.com/w/page/110164099/PACOM
+
 #What does it do?
   Generate PACOM metric maps for each realization by combining ratio maps of the same attributes
   Generate PACOM indicator maps for each realization by combining metric maps; spatial associated random error is added in this process
