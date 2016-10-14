@@ -11,8 +11,8 @@ http://digitalpopulations.pbworks.com/w/page/110164099/PACOM
 
 #Prerequisites
   * GDAL (for more information: http://www.gdal.org/)
-  * Spatial Random field generator: http://digitalpopulations.pbworks.com/w/page/110082820/SpatialRandomFieldGenerator
-  * Density Map Raster Calculation tool as part of the kernel analysis utility tools: http://digitalpopulations.pbworks.com/w/page/96200604/KernelAnalysisUtilityTools
+  * Spatial Random field generator (included in src): http://digitalpopulations.pbworks.com/w/page/110082820/SpatialRandomFieldGenerator
+  * Density Map Raster Calculation tool as part of the kernel analysis utility tools (included in src): http://digitalpopulations.pbworks.com/w/page/96200604/KernelAnalysisUtilityTools
 
 #Compile and run
 metric.sh and indicator.sh are bash scripts that can be run directly without compiling. <br>
