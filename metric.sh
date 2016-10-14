@@ -61,7 +61,7 @@ do
 	echo $command
 done
 
-echo ./SARasterStat $1 $2 $3 $1
+./SARasterStat $1 $2 $3 $1
 
 #Log:
 now="$(date)"
