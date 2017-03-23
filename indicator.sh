@@ -75,7 +75,7 @@ done
 
 echo ./SARasterStat $1 $2 $3 $1 >> temp.sh
 
-#bash temp.sh
+bash temp.sh
 
 #Log:
 now="$(date)"
